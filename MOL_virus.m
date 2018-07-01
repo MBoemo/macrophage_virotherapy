@@ -6,7 +6,7 @@ clc;clear;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Finite difference parameters
-maxT = 2000; % Solves on time interval [0,maxT]
+maxT = 3000; % Solves on time interval [0,maxT]
 
 global xi_step;
 xi_step = 0.01;  % Space step

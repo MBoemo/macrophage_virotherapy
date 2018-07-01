@@ -6,7 +6,7 @@ clc;clear;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Finite difference parameters
-maxT = 3000; % Solves on time interval [0,maxT]
+maxT = 1500; % Solves on time interval [0,maxT]
 
 global xi_step;
 xi_step = 0.01;  % Space step
@@ -57,12 +57,12 @@ h_phi = 0.01;
 
 % Macrophage delay
 global mac_turn_on;
-mac_turn_on = 3001;
+mac_turn_on = 200;
 
 % Radiation parameters
 global rad_start rad_dur rad_strength gamma rad_start2;
-rad_start2 = 3001;
-rad_start = 3001;      % Time to start radiation
+rad_start2 = 200;
+rad_start = 150;      % Time to start radiation
 rad_dur = 0.05;       % Duration of radiation
 rad_strength = 0.2;   % Radiation strength
 gamma = 0.05;
