@@ -1,5 +1,5 @@
 # macrophage_virotherapy
-Code supporting Boemo, Byrne 2018
+Code supporting Boemo M.A. and Byrne H.M. (2019) Mathematical modelling of a hypoxia-regulated oncolytic virus delivered by tumour-associated macrophages.  *Journal of Theoretical Biology* 461: 102-116.
 
 This document contains instructions for how to generate each figure.
 
